@@ -1,0 +1,21 @@
+Algoritmo Ejercicio1
+	Escribir 'Ingrese un número entero'
+	Leer var
+	pares <- 0
+	impares <- 0
+	Para i<-1 Hasta var Hacer
+		random <- azar(100)
+		Escribir '',random
+		Mientras (random>1) Hacer
+			random <- random-2
+		FinMientras
+		Si (random=0) Entonces
+			Escribir 'Es par '
+			pares <- pares+1
+		SiNo
+			Escribir 'Es impar '
+			impares <- impares+1
+		FinSi
+	FinPara
+	Escribir 'Son ',pares,' números pares y ',impares,' número impares'
+FinAlgoritmo
